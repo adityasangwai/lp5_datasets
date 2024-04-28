@@ -1,0 +1,7 @@
+nvcc 4_vecadd.cu -o 4_vecadd && ./4_vecadd
+
+To compile openmp c++ code : a. g++ programFileName.cpp -lgomp -o outputFileName
+                             b. g++ programFileName.cpp -fopenmp -o outputFileName
+                             c. g++ -fopenmp filename.cpp -o exec
+To run openmp c++ code in terminal : a. ./outputFileName
+                                     b. .\exec
